@@ -1,0 +1,46 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++23",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-pedantic-errors",
+      "-g",
+      "-fdiagnostics-color=always",
+      "-I",
+      "/home/liher27/proyectos-c++/pruebasIncludesYFunciones/header",
+      "-o",
+      "/home/liher27/proyectos-c++/pruebasIncludesYFunciones/compiled/MiProyecto",
+      "/home/liher27/proyectos-c++/pruebasIncludesYFunciones/src/funciones.cpp"
+    ],
+    "directory": "/home/liher27/proyectos-c++/pruebasIncludesYFunciones",
+    "file": "/home/liher27/proyectos-c++/pruebasIncludesYFunciones/src/funciones.cpp",
+    "output": "/home/liher27/proyectos-c++/pruebasIncludesYFunciones/compiled/MiProyecto"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++23",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-pedantic-errors",
+      "-g",
+      "-fdiagnostics-color=always",
+      "-I",
+      "/home/liher27/proyectos-c++/pruebasIncludesYFunciones/header",
+      "-o",
+      "/home/liher27/proyectos-c++/pruebasIncludesYFunciones/compiled/MiProyecto",
+      "/home/liher27/proyectos-c++/pruebasIncludesYFunciones/src/funcionExterna.cpp"
+    ],
+    "directory": "/home/liher27/proyectos-c++/pruebasIncludesYFunciones",
+    "file": "/home/liher27/proyectos-c++/pruebasIncludesYFunciones/src/funcionExterna.cpp",
+    "output": "/home/liher27/proyectos-c++/pruebasIncludesYFunciones/compiled/MiProyecto"
+  }
+]

@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build C++ Project",
+            "type": "shell",
+            "command": "bash",
+            "args": [
+                "-c",
+                "mkdir -p \"${workspaceFolder}/compiled\" && g++ -std=c++23 -Wall -Wextra -Wpedantic -Werror -pedantic-errors -g -fdiagnostics-color=always \"${workspaceFolder}\"/src/*.cpp -I \"${workspaceFolder}/header\" -o \"${workspaceFolder}/compiled/MiProyecto\""
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}
